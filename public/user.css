@@ -1,0 +1,17 @@
+.group:hover .group-hover\:flex {
+	display: flex !important;
+}
+html, body {
+    height: 100%; /* Permet de remplir la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.footer {
+    position: relative; /* Position relative pour un positionnement dynamique */
+    bottom: 0; /* Se place au bas de la page */
+    width: 100%; /* Prend toute la largeur de l'écran */
+}
+
+.container-fluid {
+    padding-bottom: 20px; /* Ajoute un espacement pour éviter que le contenu touche le bas de l'écran */
+}

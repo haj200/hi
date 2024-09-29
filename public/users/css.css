@@ -1,0 +1,52 @@
+input:placeholder-shown {
+    border: 1px solid #ced4da; /* Bordure grise claire */
+    color: rgb(63, 60, 60);
+    background-color: #080808; /* Optionnel : gris clair pour le fond */
+  }
+  
+  /* Bordure plus foncée lorsqu'il est en focus (l'utilisateur clique dedans) */
+  input:focus {
+    border: 2px solid #ff0000; /* Bordure bleue pour le focus */
+    background-color: rgb(34, 1, 1); /* Fond blanc pour le focus */
+    outline: none; /* Retirer l'effet de contour par défaut */
+  }
+  input:not(:placeholder-shown) {
+    border: 2px solid #282829; /* Bordure bleue quand le champ est rempli */
+    color: rgb(128, 120, 120); /* Couleur noire une fois que l'utilisateur tape */
+  }
+  /* Pour changer la couleur de fond et de texte lorsque l'option est sélectionnée */
+select {
+  background-color: black;   /* Couleur de fond des options */
+  color: white;            /* Couleur du texte en noir */
+  padding: 10px;           /* Pour ajouter un peu d'espacement si nécessaire */
+  border: 1px solid #ccc;  /* Bordure */
+}
+
+select:focus {
+  background-color: black;   /* Couleur de fond des options */
+  color: white;             /* Couleur du texte */
+}
+
+option {
+  background-color: black;   /* Couleur de fond des options */
+  color: white;              /* Couleur du texte des options */
+}
+.col-sm-10 {
+  background-color: black;   /* Couleur de fond des options */
+  color: white;   
+}
+.card {
+  background-color: #343a40; /* Dark background */
+  color: white;              /* White text */
+}
+
+/* Option survolée */
+.form-select{
+  border: 1px solid #ced4da; /* Bordure grise claire */
+    color: rgb(128, 120, 120);
+    background-color: black; /* Optionnel : gris clair pour le fond */
+}
+input full {
+  color: #ddd6d6;
+  background-color: #282829;
+}
